@@ -1664,8 +1664,7 @@ padding: 0;
 
 
 div#scene {
-    margin-left: -224px;
-    width: 0%;
+    margin-left: 224px;
     margin-top: 45px;
 }
 
