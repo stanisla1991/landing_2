@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap-grid.min.css" integrity="sha512-Aa+z1qgIG+Hv4H2W3EMl3btnnwTQRA47ZiSecYSkWavHUkBF2aPOIIvlvjLCsjapW1IfsGrEO3FU693ReouVTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="mobMenu" class="mobile_menu close_menu">
+      <img class="close_icon" src="img/close.svg" alt="">
+    <ul class="ul_padng">
+      <li class="li_mobile_menu">Home</li>
+      <li class="li_mobile_menu">Categories</li>
+      <li class="li_mobile_menu">My Collections</li>
+      <li class="li_mobile_menu">Blog</li>
+    </ul>
+
+    </div>
+
+    <div class="header navbarr" id="navbarr">
+      <div class="container_22">
+        <img class="logo" src="img/logo.png" alt="">
+        <div class="menu_block">
+          <ul class="menu">
+            <li>Home</li>
+            <li class="gap dropbtn" onclick="myFunction()">Categories <img class="arrow" src="img/arrow.png" alt="">
+              <ul class="dropdown-content" id="myDropdown">
+                <li class="hover_mega_menu">Category 1</li>
+                <li class="hover_mega_menu">Category 2</li>
+                <li class="hover_mega_menu">Category 3</li>
+              </ul>
+            </li>
+            <li class="gap">My Collections</li>
+            <li class="gap">Blog</li>
+          </ul>
+        </div>
+        <ul class="menu autorize">
+          <img id="openMmenu" onclick="openMobMenu()" class="burger" src="img/burger.png" alt="">
+          <li class="login">Login</li>
+          <li class="btn">Sign Up</li>
+        </ul>
+      </div>
+    </div>
+
+
+
+
+<div class="container">
+  <div class="slide_1 row">
+    <div class="slide_1_block col-xs-11 col-sm-11 col-md-10 col-lg-11">
+      <h1 class="title align_center">Awesome tools for <br> Designer & Developers <span class="dot">.</span>
+      </h1>
+      <p class="under_ttl_1">Antool is a web collection of information on paid or <br>free Design and Development tools </p>
+      <form class="search_form">
+        <input class="search_input" type="search" name="q" placeholder="find more than 430+ tools...">
+        <input class="search_btn" type="submit" value="Search">
+      </form>
+      <div>
+        <img class="social_icon" src="img/f_icon.png" alt="">
+        <img class="social_icon" src="img/i_icon.png" alt="">
+        <img class="social_icon" src="img/t_icon.png" alt="">
+      </div>
+    </div>
+    <div class="img_cnt col-xs-1 col-sm-1 col-md-2 col-lg-1" id="scene" data-relative-input="true">
+      <!-- <img class="il_1" src="img/il_1.png" alt=""> -->
+      <img class="comp_1" src="img/comp_1.png" data-depth='0.1' alt="">
+      <img class="comp_2" src="img/comp_2.png" data-depth='0.3' alt="">
+      <img class="comp_3" src="img/comp_3.png" data-depth='0.2' alt="">
+      <img class="comp_4" src="img/comp_4.png" data-depth='0' alt="">
+      <img class="comp_element_1" src="img/comp_element_1.png" data-depth='0' alt="">
+      <img class="comp_element_2" src="img/comp_element_1.png" data-depth='0' alt="">
+      <img class="comp_5" src="img/comp_5.png" data-depth='0.1' alt="">
+      <img class="comp_6" src="img/comp_6.png" data-depth='0' alt="">
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="slide_2 col">
+
+      <h2 class="h2 align_center">Most Popular Tools</h2>
+      <p class="under_ttl_2 align_center">Tools for the best Designers and Developers <br>most popularly used in the world </p>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+    <div class="container slide_3 heart_animation">
+      <div class="row correct_block">
+      <div class="item borderr col">
+        <div class="itm_img_ttl">
+          <img class="logo_item" src="img/sketch_logo.png" alt="">
+          <h3 class="h3">Sketch <br>
+            <span class="ttl_h3 ttl_hover_h3">Trial & Paid</span>
+          </h3>
+        </div>
+        <div class="p_item">
+          <p class="p_item_size p_item_size_hover">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="click_panel">
+          <div>
+            <i class="fa fa-heart" id="heart"></i>
+            <img class="file_defauld" src="img/file.png" alt="">
+          </div>
+          <div id="add" class="btn_visit">
+            <a class="btn_vi">Visit</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="item borderr col">
+        <div class="itm_img_ttl">
+          <img class="logo_item" src="img/sketch_logo.png" alt="">
+          <h3 class="h3">Sketch <br>
+            <span class="ttl_h3 ttl_hover_h3">Trial & Paid</span>
+          </h3>
+        </div>
+        <div class="p_item">
+          <p class="p_item_size p_item_size_hover">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="click_panel">
+          <div>
+            <i class="fa fa-heart" id="heart"></i>
+            <img class="file_defauld" src="img/file.png" alt="">
+          </div>
+          <div id="add" class="btn_visit">
+            <a class="btn_vi">Visit</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="item borderr col">
+        <div class="itm_img_ttl">
+          <img class="logo_item" src="img/sketch_logo.png" alt="">
+          <h3 class="h3">Sketch <br>
+            <span class="ttl_h3 ttl_hover_h3">Trial & Paid</span>
+          </h3>
+        </div>
+        <div class="p_item">
+          <p class="p_item_size p_item_size_hover">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="click_panel">
+          <div>
+            <i class="fa fa-heart" id="heart"></i>
+            <img class="file_defauld" src="img/file.png" alt="">
+          </div>
+          <div id="add" class="btn_visit">
+            <a class="btn_vi">Visit</a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+    </div>
+
+
+    <!-- Скрытый! -->
+    <div class="container slide_3 hiddenn" id="config-btn">
+      <div class="row correct_block">
+
+      <div class="item borderr col">
+        <div class="itm_img_ttl">
+          <img class="logo_item" src="img/sketch_logo.png" alt="">
+          <h3 class="h3">Sketch <br>
+            <span class="ttl_h3 ttl_hover_h3">Trial & Paid</span>
+          </h3>
+        </div>
+        <div class="p_item">
+          <p class="p_item_size p_item_size_hover">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="click_panel">
+          <div>
+            <i class="fa fa-heart" id="heart"></i>
+            <img class="file_defauld" src="img/file.png" alt="">
+          </div>
+          <div id="add" class="btn_visit">
+            <a class="btn_vi">Visit</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="item borderr col">
+        <div class="itm_img_ttl">
+          <img class="logo_item" src="img/sketch_logo.png" alt="">
+          <h3 class="h3">Sketch <br>
+            <span class="ttl_h3 ttl_hover_h3">Trial & Paid</span>
+          </h3>
+        </div>
+        <div class="p_item">
+          <p class="p_item_size p_item_size_hover">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="click_panel">
+          <div>
+            <i class="fa fa-heart" id="heart"></i>
+            <img class="file_defauld" src="img/file.png" alt="">
+          </div>
+          <div id="add" class="btn_visit">
+            <a class="btn_vi">Visit</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="item borderr col">
+        <div class="itm_img_ttl">
+          <img class="logo_item" src="img/sketch_logo.png" alt="">
+          <h3 class="h3">Sketch <br>
+            <span class="ttl_h3 ttl_hover_h3">Trial & Paid</span>
+          </h3>
+        </div>
+        <div class="p_item">
+          <p class="p_item_size p_item_size_hover">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="click_panel">
+          <div>
+            <i class="fa fa-heart" id="heart"></i>
+            <img class="file_defauld" src="img/file.png" alt="">
+          </div>
+          <div id="add" class="btn_visit">
+            <a class="btn_vi">Visit</a>
+          </div>
+        </div>
+      </div>
+
+     </div>
+    </div>
+
+    <!-- Скрытый конец -->
+
+
+    <div class="slide_4">
+      <a id="hiderr">Load more</a>
+    </div>
+
+
+    <div class="slide_5">
+      <div>
+        <h3 class="title_logo">Trusted more than <span id="number">150</span>+ brand </h3>
+      </div>
+      <div class="brand_block row">
+        <div class="container py-5 col">
+          <div class="row my-5">
+            <div class="col">
+              <div class="marquee-full-width">
+                <div class="marquee-box">
+                  <div class="marquee">
+                    <figure>
+                      <img src="img/mic_logo.png" alt="featured creator">
+                      <figcaption>Sanjeev kapoor Academy</figcaption>
+                    </figure>
+                    <figure>
+                      <img src="img/goo_logo.png" alt="featured creator">
+                      <figcaption>Tuition Fe by BSE</figcaption>
+                    </figure>
+                    <figure>
+                      <img src="img/sla_logo.png" alt="featured creator">
+                      <figcaption>Symboisis Centre For Entrepreneurship & Innovation</figcaption>
+                    </figure>
+                    <figure>
+                      <img src="img/wor_logo.png" alt="featured creator">
+                      <figcaption>Srimantha</figcaption>
+                    </figure>
+                  </div>
+                  <div class="marquee">
+                    <figure>
+                      <img src="img/mic_logo.png" alt="featured creator">
+                      <figcaption>Sanjeev kapoor Academy</figcaption>
+                    </figure>
+                    <figure>
+                      <img src="img/goo_logo.png" alt="featured creator">
+                      <figcaption>Tuition Fe by BSE</figcaption>
+                    </figure>
+                    <figure>
+                      <img src="img/sla_logo.png" alt="featured creator">
+                      <figcaption>Symboisis Centre For Entrepreneurship & Innovation</figcaption>
+                    </figure>
+                    <figure>
+                      <img src="img/wor_logo.png" alt="featured creator">
+                      <figcaption>Srimantha</figcaption>
+                    </figure>
+                  </div>
+                  <div class="marquee">
+                    <figure>
+                      <img src="img/mic_logo.png" alt="featured creator">
+                      <figcaption>Sanjeev kapoor Academy</figcaption>
+                    </figure>
+                    <figure>
+                      <img src="img/goo_logo.png" alt="featured creator">
+                      <figcaption>Tuition Fe by BSE</figcaption>
+                    </figure>
+                    <figure>
+                      <img src="img/sla_logo.png" alt="featured creator">
+                      <figcaption>Symboisis Centre For Entrepreneurship & Innovation</figcaption>
+                    </figure>
+                    <figure>
+                      <img src="img/wor_logo.png" alt="featured creator">
+                      <figcaption>Srimantha</figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container slide_4">
+      <div class="row">
+
+    <div class="newcomer_block">
+      <h2 class="h2">Newcomer Tools</h2>
+      <p class="under_ttl_2 align_left">Wow! see the latest update of the most <br>recommended tools from reliable designers <br>and developers </p>
+      <a class="search_btn2">Explore more</a>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+    <div class="container slide_3 heart_animation">
+      <div class="row correct_block">
+      <div class="item borderr col">
+        <div class="itm_img_ttl">
+          <img class="logo_item" src="img/sketch_logo.png" alt="">
+          <h3 class="h3">Sketch <br>
+            <span class="ttl_h3 ttl_hover_h3">Trial & Paid</span>
+          </h3>
+        </div>
+        <div class="p_item">
+          <p class="p_item_size p_item_size_hover">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="click_panel">
+          <div>
+            <i class="fa fa-heart" id="heart"></i>
+            <img class="file_defauld" src="img/file.png" alt="">
+          </div>
+          <div id="add" class="btn_visit">
+            <a class="btn_vi">Visit</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="item borderr col">
+        <div class="itm_img_ttl">
+          <img class="logo_item" src="img/sketch_logo.png" alt="">
+          <h3 class="h3">Sketch <br>
+            <span class="ttl_h3 ttl_hover_h3">Trial & Paid</span>
+          </h3>
+        </div>
+        <div class="p_item">
+          <p class="p_item_size p_item_size_hover">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="click_panel">
+          <div>
+            <i class="fa fa-heart" id="heart"></i>
+            <img class="file_defauld" src="img/file.png" alt="">
+          </div>
+          <div id="add" class="btn_visit">
+            <a class="btn_vi">Visit</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="item borderr col">
+        <div class="itm_img_ttl">
+          <img class="logo_item" src="img/sketch_logo.png" alt="">
+          <h3 class="h3">Sketch <br>
+            <span class="ttl_h3 ttl_hover_h3">Trial & Paid</span>
+          </h3>
+        </div>
+        <div class="p_item">
+          <p class="p_item_size p_item_size_hover">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="click_panel">
+          <div>
+            <i class="fa fa-heart" id="heart"></i>
+            <img class="file_defauld" src="img/file.png" alt="">
+          </div>
+          <div id="add" class="btn_visit">
+            <a class="btn_vi">Visit</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="item borderr col">
+        <div class="itm_img_ttl">
+          <img class="logo_item" src="img/sketch_logo.png" alt="">
+          <h3 class="h3">Sketch <br>
+            <span class="ttl_h3 ttl_hover_h3">Trial & Paid</span>
+          </h3>
+        </div>
+        <div class="p_item">
+          <p class="p_item_size p_item_size_hover">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="click_panel">
+          <div>
+            <i class="fa fa-heart" id="heart"></i>
+            <img class="file_defauld" src="img/file.png" alt="">
+          </div>
+          <div id="add" class="btn_visit">
+            <a class="btn_vi">Visit</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="item borderr col">
+        <div class="itm_img_ttl">
+          <img class="logo_item" src="img/sketch_logo.png" alt="">
+          <h3 class="h3">Sketch <br>
+            <span class="ttl_h3 ttl_hover_h3">Trial & Paid</span>
+          </h3>
+        </div>
+        <div class="p_item">
+          <p class="p_item_size p_item_size_hover">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="click_panel">
+          <div>
+            <i class="fa fa-heart" id="heart"></i>
+            <img class="file_defauld" src="img/file.png" alt="">
+          </div>
+          <div id="add" class="btn_visit">
+            <a class="btn_vi">Visit</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="item borderr col">
+        <div class="itm_img_ttl">
+          <img class="logo_item" src="img/sketch_logo.png" alt="">
+          <h3 class="h3">Sketch <br>
+            <span class="ttl_h3 ttl_hover_h3">Trial & Paid</span>
+          </h3>
+        </div>
+        <div class="p_item">
+          <p class="p_item_size p_item_size_hover">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="click_panel">
+          <div>
+            <i class="fa fa-heart" id="heart"></i>
+            <img class="file_defauld" src="img/file.png" alt="">
+          </div>
+          <div id="add" class="btn_visit">
+            <a class="btn_vi">Visit</a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+    </div>
+
+
+    <div class="swiper mySwiper padding_slider">
+      <div class="swiper-wrapper">
+
+
+        <div class="swiper-slide">
+          <div>
+            <img class="img_swiper" src="img/human_1.png" alt="">
+            <div class="title_block_slider">
+              <h4 class="title_img_swiper">Ronald Richards</h4>
+              <p class="under_title_img_swiper">Product Manager</p>
+            </div>
+          </div>
+          <div class="comment_block_slider">
+            <p class="sign_comment">“</p>
+            <p class="p_slider">Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur non laboris id qui ad.</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+
+    <div class="container slide_2 correct">
+      <div class="row">
+            <div class="col col-xl-12 padding_null">
+      <h2 class="h2">Become a contributor?</h2>
+      <p class="under_ttl_2">Join us and get tips & tricks to become a great <br>Designer and Developer </p>
+      <form class="email_form">
+        <input class="email_input" type="search" name="a" placeholder="Enter your email...">
+        <input class="search_btn search_position_btn" type="submit" value="Join Us">
+      </form>
+      </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+<div class="line">x</div>
+
+    <div class="container slide_7">
+      <div class="row">
+      <div class="col-12 col-xl-3">
+        <img class="logo_footer" src="img/logo.png" alt="">
+        <p class="copyright">Copyright 2021. Antools</p>
+        <p class="footer_info">Antool is a web collection of <br>information on paid or free Design <br>and Development tools </p>
+      </div>
+
+      <div class="footer_correct_1 col-12 col-xl-3">
+        <h4 class="title_footer">Contact Us</h4>
+        <a class="info_footer" href="tel:+621987463">+621987463</a>
+        <a class="info_footer">M Building, No.10 A</a>
+        <a class="info_footer" href="mailto:antools@awesome.com?subject=Ask to HTML">antools@awesome.com</a>
+      </div>
+      <div class="footer_correct_2 col-12 col-xl-3">
+        <h4 class="title_footer">Categories</h4>
+        <a class="info_footer">Design</a>
+        <a class="info_footer">Development</a>
+      </div>
+      <div class="footer_correct_3 col-12 col-xl-3">
+        <h4 class="title_footer">Company Info</h4>
+        <a class="info_footer">About Us</a>
+        <a class="info_footer">Our Partners</a>
+        <a class="info_footer">Blog</a>
+      </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
