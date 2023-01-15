@@ -44,7 +44,7 @@ h4 {
 body {
   background-color: #1e252b !important;
   padding-left: 111px !important;
-  
+
 }
 
 p.align_left {
@@ -1664,7 +1664,9 @@ padding: 0;
 
 
 div#scene {
-    margin-left: 427px;
+    margin-left: -224px;
+    width: 0%;
+    margin-top: 45px;
 }
 
 
