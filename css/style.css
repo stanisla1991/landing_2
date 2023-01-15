@@ -1664,8 +1664,11 @@ padding: 0;
 
 
 div#scene {
-    margin-left: 224px;
-    margin-top: 45px;
+  margin-left: 242px;
+    margin-top: 45px
+    width: 91px;
+    height: 391px;
+    object-fit: cover;
 }
 
 
