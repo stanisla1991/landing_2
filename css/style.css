@@ -41,6 +41,12 @@ h4 {
   font-style: normal !important;
 }
 
+html, body {
+    
+    overflow-x: hidden;
+}
+
+
 body {
   background-color: #1e252b !important;
   padding-left: 111px !important;
