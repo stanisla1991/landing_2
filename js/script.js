@@ -100,22 +100,7 @@ var scene = document.getElementById('scene');
 var parallaxInstance = new Parallax(scene);
 
 
-// Мобильная версия меню
 
-$(document).ready(function () {
-   var burger = $('.btnnnn');
-   var menu = $('.full-menu');
-   var navItems = $('.nav__item');
-
-   burger.click(function () {
-      burger.toggleClass('btn--open');
-      menu.toggleClass('menu--open');
-   });
-
-   navItems.hover(function () {
-      navItems.not($(this)).toggleClass('nav__item--hover');
-   });
-});
 
 
 
@@ -177,7 +162,7 @@ window.addEventListener('scroll', e => {
 // }
 
 
-document.getElementById("mobMenu").onclick = function () {
+function closeMobMenu() {
 document.getElementById("mobMenu").classList.toggle('close_menu');
 
 }
