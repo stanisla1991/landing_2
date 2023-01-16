@@ -11,14 +11,25 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div id="mobMenu" class="mobile_menu close_menu">
-      <img class="close_icon" onclick="closeMobMenu()" src="img/close.svg" alt="">
-    <ul class="ul_padng">
-      <li class="li_mobile_menu">Home</li>
-      <li class="li_mobile_menu">Categories</li>
-      <li class="li_mobile_menu">My Collections</li>
-      <li class="li_mobile_menu">Blog</li>
-    </ul>
+
+<div id="page">
+
+    <div id="header" class="mobile_menu close_menu">
+   <img class="close_icon" src="img/close.svg" alt="">
+      <nav id="menu">
+          <ul>
+              <li class="Selected"><a href="/">Home</a></li>
+              <li><span class="menuFont">Categories</span>
+                  <ul>
+                      <li><a href="/about/history/">Category 1</a></li>
+                      <li><a href="/about/team/">Category 2</a></li>
+                      <li><a href="/about/address/">Category 3</a></li>
+                  </ul>
+              </li>
+              <li><a href="/contact/">My Collections</a></li>
+              <li><a href="/contact/">Blog</a></li>
+          </ul>
+      </nav>
 
     </div>
 
@@ -40,7 +51,7 @@
           </ul>
         </div>
         <ul class="menu autorize">
-          <img id="openMmenu" onclick="openMobMenu()" class="burger" src="img/burger.png" alt="">
+          <a href="#menu"> <img onclick="openMobMenu()" class="burger" src="img/burger.png" alt=""></a>
           <li class="login">Login</li>
           <li class="btn">Sign Up</li>
         </ul>
@@ -49,6 +60,9 @@
 
 
 
+
+
+<div id="content">
 
 <div class="container">
   <div class="slide_1 row">
@@ -535,6 +549,9 @@
       </div>
       </div>
     </div>
+
+</div>
+  </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
