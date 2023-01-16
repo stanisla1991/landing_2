@@ -42,7 +42,7 @@ h4 {
 }
 
 html, body {
-    
+
     overflow-x: hidden;
 }
 
@@ -1711,7 +1711,7 @@ li.li_mobile_menu {
 }
 
 .scrolled {
-
+margin-top: -28px;
   height: 50px;
     margin-left: -133px;
     padding-left: 69px;
